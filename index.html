@@ -150,7 +150,7 @@
             <div class="usa-modal__main">
                 <h2 class="usa-modal__heading">Расскажите о себе</h2>
                 <p class="usa-prose">и отправьтесь в космос вместе с NASA!</p>
-                <form action="" class="usa-form">
+                <form class="usa-form">
                     <input type="text" class="usa-input" placeholder="Ваше имя">
                     <fieldset class="usa-fieldset">
                         <legend class="usa-legend">Выберите планеты, которые хотели бы посетить</legend>
@@ -217,14 +217,16 @@
                                 <button type="submit" class="usa-button" data-close-modal>Отправить заявку</button>
                             </li>
                         </ul>
+                    </div>
                 </form>
             </div>
+            <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="./assets/nasawds-3.0.177/img/sprite.svg#close"></use>
+                </svg>
+            </button>
         </div>
-        <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
-            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-                <use xlink:href="./assets/nasawds-3.0.177/img/sprite.svg#close"></use>
-            </svg>
-        </button>
+
     </div>
     <!-- Место для модального окна с формой -->
     <script src="assets/nasawds-3.0.177/js/uswds.min.js"></script>
